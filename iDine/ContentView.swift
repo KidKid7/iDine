@@ -22,7 +22,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Menu")
-            .listStyle(GroupedListStyle())
+            .listStyle(.grouped)
         }
      
     }

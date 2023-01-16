@@ -104,6 +104,7 @@
 		84A1E0C62970BE8800A0DF02 /* iDine */ = {
 			isa = PBXGroup;
 			children = (
+				84FFBB34297516320037BC78 /* views */,
 				84FFBB2D2974EB600037BC78 /* resources */,
 				84FFBB302974EB7C0037BC78 /* helper */,
 				84FFBB262974EB350037BC78 /* models */,
@@ -163,6 +164,13 @@
 				84FFBB312974EB8A0037BC78 /* Helper.swift */,
 			);
 			path = helper;
+			sourceTree = "<group>";
+		};
+		84FFBB34297516320037BC78 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
