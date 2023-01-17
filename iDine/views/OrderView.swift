@@ -30,6 +30,7 @@ struct OrderView: View {
                 }
             }
             .navigationTitle("Order")
+            .listStyle(.insetGrouped)
         }
     }
 }
