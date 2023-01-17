@@ -6,8 +6,10 @@
 //  Copyright © 2019 Hacking with Swift. All rights reserved.
 //
 
-class Order {
-    var items = [MenuItem]()
+import SwiftUI
+
+class Order: ObservableObject {
+    @Published var items = [MenuItem]()
 
     var total: Int {
         if items.count > 0 {
