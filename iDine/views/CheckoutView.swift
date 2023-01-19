@@ -62,7 +62,6 @@ struct CheckoutView: View {
         } message: {
             Text("You have paid \(totalPrice). Thank you!")
         }
-
     }
 }
 
