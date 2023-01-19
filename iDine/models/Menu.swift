@@ -29,6 +29,15 @@ struct MenuItem: Codable, Hashable, Identifiable {
     var thumbnailImage: String {
         "\(mainImage)-thumb"
     }
+    
+    func copy() -> MenuItem {
+        return MenuItem(id: UUID(),
+                        name: name,
+                        photoCredit: photoCredit,
+                        price: price,
+                        restrictions: restrictions,
+                        description: description)
+    }
 
     #if DEBUG
     static let example = MenuItem(id: UUID(),

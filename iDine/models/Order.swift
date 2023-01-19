@@ -20,7 +20,7 @@ class Order: ObservableObject {
     }
 
     func add(item: MenuItem) {
-        items.append(item)
+        items.append(item.copy())
     }
 
     func remove(item: MenuItem) {
